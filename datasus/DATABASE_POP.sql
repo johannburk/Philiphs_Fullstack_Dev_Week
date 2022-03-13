@@ -5,7 +5,7 @@ INSERT INTO regiao (regiao,total_exames) VALUES ('Sul','122');
 INSERT INTO regiao (regiao,total_exames) VALUES ('Centro-Oeste','2581');
 
 
-INSERT INTO faixa_etaria (Faixa_i,Faixa_n,Descricao) VALUES ('0','10','Até 10 anos');
+INSERT INTO faixa_etaria (Faixa_i,Faixa_n,Descricao) VALUES ('0','10','AtÃ© 10 anos');
 INSERT INTO faixa_etaria (Faixa_i,Faixa_n,Descricao) VALUES ('11','14','Entre 11 e 14 anos');
 INSERT INTO faixa_etaria (Faixa_i,Faixa_n,Descricao) VALUES ('15','19','Entre 15 e 19 anos');
 INSERT INTO faixa_etaria (Faixa_i,Faixa_n,Descricao) VALUES ('20','24','Entre 20 e 24 anos');
@@ -23,4 +23,3 @@ INSERT INTO faixa_etaria (Faixa_i,Faixa_n,Descricao) VALUES ('70','150','Acima d
 
 INSERT INTO incidencia_exame (regiao_id, Mes, faixa_id, qnt_exames) VALUES (1,5,2,1);
 INSERT INTO incidencia_exame (regiao_id, Mes, faixa_id, qnt_exames) VALUES (1,5,4,2);
-
